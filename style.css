@@ -48,7 +48,6 @@ li{
 /*main*/
 
 .container{
-    background-color: pink;
     flex-wrap: wrap;
     padding: 30px 140px;
     justify-content: center;
@@ -57,10 +56,10 @@ li{
 .card{
     min-width: 276px;
     height: 450px;
-    background-color: violet;
-    border: 1px solid black;
     margin: 14px;
     flex-direction: column;
+    position: relative;
+    
 }
 
 .card img{
@@ -68,14 +67,96 @@ li{
     width: 100%;
 }
 
+.cuore{
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cuore:hover p{
+    color: red;
+}
+
+.cuore p{
+    font-size: 23px;
+}
+
 .specifiche{
     height: 15%;
     width: 100%;
+    font-size: 13px;
+    padding-top: 4px;
     
+}
+
+.prezzo{
+    color: red;
+}
+
+.prezzo span{
+    color: black;
+    text-decoration:line-through;
+}
+
+.sconto{
+    height: 15px;
+    position: absolute;
+    bottom: 90px;
+    left: 0px;
+    background-color: red;
+    color: white;
+    font-size: x-small;
+    padding: 8px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sos{
+    height: 15px;
+    position: absolute;
+    bottom: 90px;
+    left: 39px;
+    background-color: green;
+    color: white;
+    font-size: x-small;
+    padding: 8px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Footer*/
 
-footer div{
-    justify-content: space-around;
+.inferiore{
+    padding: 20px;
+    background-color: black;
+    height: 90px;
 }
+
+.ineriore-info{
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#info{
+    width: 200px;
+    height: 100%;
+    color: white;
+}
+
+#social{
+    width: 200px;
+    height: 100%;
+    color: white;
+}
+
