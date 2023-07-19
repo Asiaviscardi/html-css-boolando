@@ -20,3 +20,38 @@
     display: flex;
     justify-content: space-around;
 }
+
+/*main*/
+
+.container{
+    background-color: pink;
+    flex-wrap: wrap;
+    padding: 30px 140px;
+    justify-content: center;
+}
+
+.card{
+    min-width: 276px;
+    height: 450px;
+    background-color: violet;
+    border: 1px solid black;
+    margin: 14px;
+    flex-direction: column;
+}
+
+.card img{
+    height: 85%;
+    width: 100%;
+}
+
+.specifiche{
+    height: 15%;
+    width: 100%;
+    
+}
+
+/*Footer*/
+
+footer div{
+    justify-content: space-around;
+}
